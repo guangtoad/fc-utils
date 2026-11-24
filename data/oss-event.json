@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "eventName": "ObjectCreated:PutObject",
+      "eventSource": "acs:oss",
+      "oss": {
+        "bucket": {
+          "name": "test-bucket",
+          "arn": "acs:oss:cn-hangzhou:1234567890:test-bucket"
+        },
+        "object": {
+          "key": "images/test-image.jpg",
+          "size": 1024
+        }
+      }
+    }
+  ]
+}

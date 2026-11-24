@@ -1,0 +1,5 @@
+{
+  "triggerTime": "2026-11-24T10:00:00Z",
+  "triggerName": "daily-report-trigger",
+  "payload": "generate-daily-report"
+}

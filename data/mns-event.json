@@ -1,0 +1,9 @@
+{
+  "events": [
+    {
+      "messageId": "C618253F-4A3B-7D2E-9F1A-2B3C4D5E6F7A",
+      "messageBody": "{\"orderId\": \"12345\", \"action\": \"create\"}",
+      "enqueueTime": "2026-11-24T10:00:00Z"
+    }
+  ]
+}

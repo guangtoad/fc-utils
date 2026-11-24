@@ -1,0 +1,15 @@
+edition: 3.0.0
+name: fc-oss-demo
+access: default # 替换为你配置的阿里云凭证别名
+
+resources:
+  oss_processor:
+    component: fc3
+    props:
+      region: cn-hangzhou
+      functionName: oss-processor
+      runtime: java17
+      codeUri: ./
+      handler: com.example.OssHandler::handleRequest
+      memorySize: 512
+      timeout: 60

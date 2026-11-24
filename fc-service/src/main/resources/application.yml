@@ -1,0 +1,14 @@
+server:
+  port: ${FC_SERVICE_HOST:8080}
+fc:
+  plugin:
+    path: ./plugins  # 支持相对路径或绝对路径，如 /opt/fc-plugins
+
+logging:
+  level:
+    # 开启指定包的 DEBUG 日志（替换为你的业务包名）
+    com.yourpackage: INFO
+    # 可选：开启 Spring Web 的 DEBUG 日志以查看请求详情
+    org.springframework.web: INFO
+    # 可选：全局 Root 级别设为 DEBUG（生产环境慎用，日志量极大）
+    root: INFO
